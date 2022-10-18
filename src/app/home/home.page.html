@@ -1,0 +1,18 @@
+<ion-header >
+  <ion-toolbar>
+    <ion-title class="titulo">
+      Avaliador de Senha
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-Content>
+  <ion-item>
+    <ion-label class="label">Senha:</ion-label>
+    <ion-input [(ngModel)]="senha" (keyup)="verificar()"></ion-input>
+  </ion-item>
+<br>
+  <div class="barra{{nivel}}"></div>
+  <br>
+  <img src="../../assets/{{nivel}}.png" alt="">
+</ion-Content>

@@ -1,0 +1,7 @@
+{
+  "name": "senha",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
